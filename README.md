@@ -12,20 +12,35 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
 
-## What to contribute in this project?
-* Fix the help command
-* Implement pause command for pausing music
-* Implement resume command for resuming music
-* Improve the directory structure and clean up the code. The code is messy :(
-
-
 ## How to contribute to this project
-Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `CONTRIBUTORS.md` file
 * Add a profile page to the `profiles` directory
 * Comment on which issue you are working on and we will assign you the issue.
 * Fix the issue/issues you have chosen.
+* Create a new dummy discord bot from [discord developer portal](https://discord.com/developers/applications). Then click on "Bot" option from the left navigation panel and click on "Reset Token". You will get your bot token. Copy it and don't reveal the token to anyone🤫
+* Then create a .env file in the root of your cloned directory and add the following line
+```markdown
+TOKEN=<YOUR_BOT_TOKEN>
+```
+* Fire up a terminal and cd into your directory. Then execute
+```markdown
+npm install
+```
+to install the packages
+* After the packkages are installed, execute the following to start your bot
+```markdown
+nodemon index.js
+```
+* The bot is up and running! You can now start contributing
+
+
+## What to contribute in this project?
+* Fix the help command
+* Implement pause command for pausing a music
+* Implement resume command for resuming a music
+* Implement skip command for skipping a music
+* Improve the directory structure and clean up the code. The code is messy :(
 
 
 ## Getting started
