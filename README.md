@@ -13,11 +13,10 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 
 ## What to contribute in this project?
-* Make the website responsive for mobile devices with a better UI keeping the parallax effect intact.
-* Make the "Make a friend" button in the Homes page functionable.
-  ``` On clicking the button a modal should be displayed, where credentials like ``` `name`,`phone number` ```and``` `pet requirements` ``` should be there and a Submit button ```
-* Create a carousel of the pet cards in this page with dummy infos and image
-  ![image](https://github.com/PhoenixTechClub-NSEC/HF-AnimalShelter/assets/146558845/367e643a-5ba2-45ae-b577-94cf9048ab5b)
+* Fix the help command
+* Implement pause command for pausing music
+* Implement resume command for resuming music
+* Improve the directory structure and clean up the code. The code is messy :(
 
 
 ## How to contribute to this project
@@ -34,7 +33,7 @@ Here are 3 quick and painless ways to contribute to this project:
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/Cybernix-Phoenix-NSEC/
+git clone https://github.com/Cybernix-Phoenix-NSEC/Joe.git
 ```
 
 * Create a branch
